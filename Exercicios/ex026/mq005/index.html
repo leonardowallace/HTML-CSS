@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="itens">
+            <ul>
+                <li>
+                    <a href="#">Opção 1</a>
+                </li>
+                <li>
+                    <a href="#">Opção 2</a>
+                </li>
+                <li>
+                    <a href="#">Opção 3</a>
+                </li>
+                <li>
+                    <a href="#">Opção 4</a>
+                </li>
+                <li>
+                    <a href="#">Opção 5</a>
+                </li>
+                <li>
+                    <a href="#">Opção 6</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media querries</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem, nostrum beatae alias doloremque accusamus mollitia maxime? Molestiae placeat, pariatur debitis ipsam, veniam commodi omnis temporibus doloremque, dignissimos inventore voluptatibus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit maxime repudiandae dicta recusandae ullam blanditiis sint ex aspernatur saepe optio atque voluptatum iste expedita pariatur, ea laudantium doloremque officiis animi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita saepe laborum blanditiis mollitia explicabo! Voluptates eligendi hic praesentium sunt, officiis saepe aliquam sapiente in expedita rerum labore excepturi laboriosam tenetur.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem enim sit et vero voluptas dolorem possimus nisi ad voluptatibus corrupti ab delectus consequuntur officiis quibusdam, magni quas. Vel, eaque labore!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, recusandae! Inventore assumenda quas, vel doloribus facilis fugiat obcaecati nemo aliquam. Enim possimus deserunt, ad debitis neque sint similique libero. Velit.
+                </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
