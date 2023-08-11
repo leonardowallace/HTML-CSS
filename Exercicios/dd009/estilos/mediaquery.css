@@ -19,6 +19,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -41,6 +42,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     section#login{
         width: 900px;
+        height: 300px;
     }
     section#login > div#imagem{
         float: right;
